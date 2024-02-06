@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    height: 50px;
+    background-color: rgb(210, 191, 191);
+}
+#header_ul{
+    display: flex;
+    margin-left: 10px;
+}
+#header_ul li{
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: aquamarine;
+    width: 4rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+#active {
+    background-color: rgb(210, 191, 191) !important;
+}
+#active a{
+    color: white !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:visited{
+    color: white;
+}
